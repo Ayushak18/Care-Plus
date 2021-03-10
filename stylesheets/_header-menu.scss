@@ -1,0 +1,15 @@
+.header-menu {
+  padding: 1rem 0;
+  background: rgb(74, 176, 159);
+  & .brand {
+    font-size: 1.8rem;
+  }
+  a,
+  i {
+    color: rgb(255, 255, 255);
+  }
+  & ul a {
+    color: rgb(255, 255, 255);
+    margin: 0 0.5rem;
+  }
+}
