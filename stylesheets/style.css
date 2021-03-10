@@ -166,6 +166,13 @@ a {
   text-decoration: none;
 }
 
+.button {
+  padding: 0.8rem 2rem;
+  background: #4ab09f;
+  color: white;
+  border-radius: 2rem;
+}
+
 .header-menu {
   padding: 1rem 0;
   background: #4ab09f;
@@ -183,5 +190,29 @@ a {
 .header-menu ul a {
   color: white;
   margin: 0 0.5rem;
+}
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero .hero-text {
+  padding: 8rem;
+}
+
+.hero .hero-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hero .hero-text p {
+  color: white;
+  padding: 2rem 0;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
