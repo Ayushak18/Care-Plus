@@ -1,0 +1,22 @@
+.hero {
+  background: url(https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  & .hero-text {
+    padding: 8rem;
+    h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+    }
+
+    & p{
+        color: rgb(255, 255, 255);
+        padding: 2rem 0;
+        line-height: 1.5;
+    }
+  }
+}
