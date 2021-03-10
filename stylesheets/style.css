@@ -129,7 +129,59 @@ table {
   border-spacing: 0;
 }
 
+html {
+  font-size: 20px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-menu {
+  padding: 1rem 0;
+  background: #4ab09f;
+}
+
+.header-menu .brand {
+  font-size: 1.8rem;
+}
+
+.header-menu a,
+.header-menu i {
+  color: white;
+}
+
+.header-menu ul a {
+  color: white;
+  margin: 0 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */

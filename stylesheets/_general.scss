@@ -1,3 +1,30 @@
+html{
+    font-size: 20px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
